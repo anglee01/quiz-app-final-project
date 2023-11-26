@@ -1,0 +1,53 @@
+.inp_text{
+height: 40px;
+width: 500px;
+margin-top: 20px;
+}
+
+.btn_style{
+    background-color:   rgb(223, 169, 33);
+    border: 3px solid  #b8860b;
+    border-radius: 50px;
+    height: 60px;
+    width: 200px;
+}
+
+.main{
+    background-color:   rgb(223, 169, 33);
+    border: 3px solid  #b8860b;
+    border-radius: 50px;
+    height: 60px;
+    width: 200px;
+    margin-top: -30px;
+}
+h1{
+    color: rgb(223, 169, 33);
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    background-color: rgb(244, 237, 237);
+}
+
+li{
+
+    background: rgb(244, 237, 237);
+    margin-left: -0px;
+}
+.lis{
+    list-style: inside ;
+    
+}
+.lis1{
+text-align: center;
+    background-color: rgb(0, 255, 68);
+}
+.btn_edit{
+    background: rgba(40, 184, 240, 0.913);
+    width: 100px;
+    border-radius: 8px;
+}
+
+
+

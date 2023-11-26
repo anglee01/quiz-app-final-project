@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-dark">
+    <div class=" text-center ">
+        <h1>ADMIN</h1> <div class="d-flex justify-content-end">  <button class="main" onclick="mainpg()">Main page</button></div>
+
+            <div class="">
+
+                <textarea name="" id="question" cols="70" rows="5" placeholder="Write question here....."></textarea>
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-6">
+
+                        <input type="text"  class="inp_text" id="option1" placeholder="Your option1">
+                    </div>
+                    <div class="col-6">
+
+                        <input type="text" name="" id="option2" class="inp_text" placeholder="Your option2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+
+                        <input type="text" name="" id="option3" class="inp_text" placeholder="Your option3">
+                    </div>
+                    <div class="col-6">
+
+                        <input type="text" name="" id="option4" class="inp_text" placeholder="Your option4"> 
+                    </div>
+                </div>
+                <input type="text" name="" id="answer" class="inp_text" placeholder="Correct Answer">
+                <div>
+
+                    <input type="submit" name="" id="" class="mt-4 btn_style" onclick="des()">
+                    <button onclick="takedata()" class="mt-4 btn_style">Get Task</button>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="list mt-5 " id="tasklist">
+   
+    </div>
+</body>
+<script type="module" src="admin.js"></script>
+</html>

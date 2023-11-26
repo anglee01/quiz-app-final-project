@@ -1,0 +1,41 @@
+body{
+color: darkgoldenrod;
+}
+
+.btn1{
+background-color:   rgb(223, 169, 33);
+border: 3px solid  #b8860b;
+border-radius: 50px;
+height: 60px;
+}
+.btn2{
+
+
+    background-color:   rgb(223, 169, 33);
+    border: 3px solid  #b8860b;
+    border-radius: 50px;
+    height: 60px;
+    }
+    .btn1:hover{
+        border: 1px solid #b8870ba2 ;
+        background-color:#b8860b ;
+    }
+    
+    .btn1:active{
+    
+    margin-top: 10px;
+    background-color: #dfa40d ;
+    border: 1px solid #e0a40a ;
+    }
+
+    .btn2:hover{
+        border: 1px solid #b8870ba2 ;
+        background-color:#b8860b ;
+    }
+    
+    .btn2:active{
+    
+    margin-top: 10px !important;
+    background-color: #dfa40d ;
+    border: 1px solid #e0a40a ;
+    }
